@@ -5,3 +5,4 @@ Without utilizing any of the built-in methods available to your language,
 return an array with elements in reversed order.
 
 ![White Board](../assets/ArrayReversed.png)
+
