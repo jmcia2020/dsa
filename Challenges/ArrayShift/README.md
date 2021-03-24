@@ -2,4 +2,5 @@
 
 ## White Board
 
-[White Board](../Challenges/assets)
+[White Board](../Challenges/assets/ArrayShift.JPEG)
+
