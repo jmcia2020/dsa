@@ -8,14 +8,14 @@ namespace DataStructures.LinkedLists
 {
     public class LinkedList
     {
-        public Node HEAD { get; set; }
+        public Node Head { get; set; }
 
         public void Insert (int value)
         {
-            HEAD = new Node(value);
+            Head = new Node(value);
         }
 
-        public bool Include(int vallueToFind)
+        public bool Include(int valueToFind)
         {
             throw new NotImplementedException();
         }
