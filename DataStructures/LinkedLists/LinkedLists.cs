@@ -10,7 +10,7 @@ namespace DataStructures.LinkedLists
     {
         public Node Head { get; set; }
 
-        public void Insert (int value)
+        public void Insert(int value)
         {
             Head = new Node(value);
         }
@@ -22,11 +22,8 @@ namespace DataStructures.LinkedLists
 
         public override string ToString()
         {
-            return base.ToString();
-            {
-                //TODO: homework
-                return "NULL";
-            }
+            //TODO: homework
+            return "NULL";
         }
     }
 }

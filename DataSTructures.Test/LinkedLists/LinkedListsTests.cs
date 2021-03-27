@@ -66,7 +66,7 @@ namespace DataSTructures.Test.LinkedLists
             Assert.Equal(5, list.Head.Next.Value);
         }
 
-        [Theory]
+        [Theory(Skip = "Homework")]
         [InlineData(1, false)]
         [InlineData(2, true)]
         [InlineData(3, true)]

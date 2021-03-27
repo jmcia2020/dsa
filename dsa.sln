@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenges", "Challenges\Ch
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Challenges.test", "Challenges.test\Challenges.test.csproj", "{725CE24E-CC94-48FF-991E-212C4743CCE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "DataStructures\DataStructures.csproj", "{5B9D1C9C-CD3E-4CB1-82BC-4F952C506EA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures", "DataStructures\DataStructures.csproj", "{5B9D1C9C-CD3E-4CB1-82BC-4F952C506EA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSTructures.Test", "DataSTructures.Test\DataSTructures.Test.csproj", "{89EDFF42-A76B-405E-AA6F-AAC2D7FDFEB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataStructures.Test", "DataSTructures.Test\DataStructures.Test.csproj", "{89EDFF42-A76B-405E-AA6F-AAC2D7FDFEB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
