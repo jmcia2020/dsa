@@ -39,3 +39,13 @@ What is the Big O space/time for this approach? -->
 Public Classes in Linked Lists.cs include:
 
 | LinkedList | Node Head | Insert | Include| ToSring |
+
+## Insertions
+
+Write the following methods for the Linked List class:
+
+`.append(value)` which adds a new node with the given value to the end of the list
+`.insertBefore(value, newVal)` which add a new node with the given newValue immediately before the first value node
+`.insertAfter(value, newVal)` which add a new node with the given newValue immediately after the first value node
+
+![White Board](../assets/Insertions.JPEG)
