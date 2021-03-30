@@ -11,7 +11,7 @@ namespace DataSTructures.Test.LinkedLists
 {
     public class KthFromTheEndTests
     {
-        [Fact]
+        [Fact(Skip = "Test for code not yet written")]
         //Happy Path Test
         public void KthFromTheEnd_returns_value_at_position()
 
