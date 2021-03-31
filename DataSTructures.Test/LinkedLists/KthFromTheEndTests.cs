@@ -13,7 +13,7 @@ namespace DataSTructures.Test.LinkedLists
     {
         [Fact(Skip = "Test for code not yet written")]
         //Happy Path Test
-        public void KthFromTheEnd_returns_value_at_position()
+        public void KFromTheEnd_returns_value_at_position()
 
             //Arrange
             List list = new LinkedList();
