@@ -14,9 +14,10 @@ namespace DataSTructures.Test.LinkedLists
         [Fact(Skip = "Test for code not yet written")]
         //Happy Path Test
         public void KFromTheEnd_returns_value_at_position()
+        {
 
             //Arrange
-            List list = new LinkedList();
+            LinkedList list = new LinkedList();
             list.Insert(2);
             list.Insert(8);
             list.Insert(3);
@@ -24,9 +25,10 @@ namespace DataSTructures.Test.LinkedLists
 
             //Act
             int result = list.KthFromTheEnd(2);
-            
+
             //Assert
             Assert.Equal(3, result);
+        }
     }
 
 }

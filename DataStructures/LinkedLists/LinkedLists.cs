@@ -25,5 +25,10 @@ namespace DataStructures.LinkedLists
             //TODO: homework
             return "NULL";
         }
+
+        public int KthFromTheEnd(int v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
