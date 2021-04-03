@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataStructures.Test
 {
-    class Class1
+    class StacksTest
     {
     }
 }
