@@ -57,7 +57,7 @@ Create a brand new `PseudoQueue` class. Do not use an existing Queue. Instead, t
 `enqueue(value)` which inserts value into the PseudoQueue, using a first-in, first-out approach.
 `dequeue()` which extracts a value from the PseudoQueue, using a first-in, first-out approach.
 
-The Stack instances have only `push`, `pop`, and `peek` methods. 
+The Stack instances have only `push`, `pop`, and `peek` methods.
 
 You should use your own Stack implementation. Instantiate these Stack objects in your PseudoQueue constructor.
 
@@ -72,3 +72,11 @@ Use the methods `enqueue(animal)` to add a dog or a cat object
 Use `dequeue(pref)` to return a dog or a cat. If none is in the stack return "null."
 
 ![FIFO White Board](DsaAssets/FIFOAnimalShelterFull.JPEG)
+
+## Multi-Bracket Validation
+
+Check a given string to see if the brackets are properly paired.  
+Input as a string.
+Return a bool
+
+![FIFO White Board](DsaAssets/MultiBracketValidation.png)
