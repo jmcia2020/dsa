@@ -6,7 +6,7 @@ Write a function called `reverseArray` which takes an array as an argument.
 Without utilizing any of the built-in methods available to your language,
 return an array with elements in reversed order.
 
-![White Board](../assets/ArrayReversed.png)
+![White Board](DsaAssets/ArrayReversed.png)
 
 ## Insert Shift Array
 
@@ -16,13 +16,13 @@ and the value to be added to the array.
 
 Return an array with the new value added at the middle index.
 
-![White Board](../assets/ArrayShift.jpg)
+![White Board](DsaAssets/ArrayShift.jpg)
 
 ## Binary Sort
 
 Search a sorted array for a Key using a Binary Sort.
 
-![White Board](../assets/BinarySearch.JPEG)
+![Binary Sort White Board](DsaAssets/BinarySearch.JPEG)
 
 ## Singly Linked List
 
@@ -48,4 +48,35 @@ Write the following methods for the Linked List class:
 `.insertBefore(value, newVal)` which add a new node with the given newValue immediately before the first value node
 `.insertAfter(value, newVal)` which add a new node with the given newValue immediately after the first value node
 
-![White Board](../assets/Insertions.JPEG)
+![White Board](DsaAssets/LinkedList.Append.Insert.JPG)
+
+## PsuedoQueue
+
+Create a brand new `PseudoQueue` class. Do not use an existing Queue. Instead, this `PseudoQueue` class will implement our standard queue interface (the two methods listed below), but will internally only utilize 2 Stack objects.
+
+`enqueue(value)` which inserts value into the PseudoQueue, using a first-in, first-out approach.
+`dequeue()` which extracts a value from the PseudoQueue, using a first-in, first-out approach.
+
+The Stack instances have only `push`, `pop`, and `peek` methods.
+
+You should use your own Stack implementation. Instantiate these Stack objects in your PseudoQueue constructor.
+
+![White Board](DsaAssets/PseudoQueue.jpeg)
+
+## FIFO Animal Shelter
+
+Create a class named `AnimalShelter` which takes in either dogs or cats using FIFO.
+
+Use the methods `enqueue(animal)` to add a dog or a cat object
+
+Use `dequeue(pref)` to return a dog or a cat. If none is in the stack return "null."
+
+![FIFO White Board](DsaAssets/FIFOAnimalShelterFull.JPEG)
+
+## Multi-Bracket Validation
+
+Check a given string to see if the brackets are properly paired.  
+Input as a string.
+Return a bool
+
+![FIFO White Board](DsaAssets/MultiBracketValidation.png)
