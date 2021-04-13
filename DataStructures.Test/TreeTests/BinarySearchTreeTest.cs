@@ -5,7 +5,7 @@ using System.Text;
 using Xunit;
 using System.Threading.Tasks;
 
-namespace DataStructures.Test
+namespace DataStructuresTest
 
 public class BinarySearchTreeTest
 {
