@@ -141,3 +141,12 @@ Without utilizing any of the built-in methods available to your language, return
 
 ![White Board](DsaAssets/findMaxValueBT.JPEG)
 
+## Breadth Transversal Binary Tree
+
+Write a `breadth first traversal method` which takes a `Binary Tree` as its unique input. 
+
+Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach, and return a `list of the values` in the tree in the order they were encountered.
+
+Beginning at the `root`, `enqueue the root`, check left and right to see if there are children, `enqueue the children`, check left and right to see if they have children, `enqueue the children` until you have `traveresed` the `height` of the tree.
+
+![White Board](DsaAssets/Breadth-First-Binary-Tree.JPEG)
