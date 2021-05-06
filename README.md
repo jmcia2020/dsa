@@ -170,3 +170,30 @@ If the value is `divisible by 3 and 5`, replace the value with **“FizzBuzz”*
 If the value is not divisible by 3 or 5, simply turn the number into a String.
 
 ![White Board](DsaAssets/FizzBuzzTree.JPEG)
+
+## HashSet with Repeated Word
+
+![White Board](DsaAssets/HashSet.RepeatedWord.JPEG)
+
+## Tree Intersection
+
+![White Board](DsaAssets/TreeIntersection.jpeg)
+
+## Left Join for 2 Hashmaps
+
+#### PROBLEM DOMAIN
+
+Write a function that `LEFT JOINs` two `hashmaps` into a single data structure.
+
+The result should include all the `keys` and `values` from the first hashmap as well as any additional `values` for the same `key` from the second map
+
+#### ALGORITHM
+
+We solved this by creating a `multi-dimensional array` from the `strings` in the Left Hashmap and the Right Hashmap.where each array has a length of 3 strings.
+
+The first and second `values` of the arrays are filled by the `key` and `value` of the Left Hashmap.
+
+For each `key` in the Left Hashmap that is matched in the Right Hashmap, we added the `value` from the Right Hashmap into the 3rd position in the array.
+
+If the Key on the Left Hashmap is not represented on the right, the 3 position in the array is NULL. 
+![White Board](DsaAssets/LeftJoin.jpeg)
