@@ -197,3 +197,31 @@ For each `key` in the Left Hashmap that is matched in the Right Hashmap, we adde
 
 If the Key on the Left Hashmap is not represented on the right, the 3 position in the array is NULL. 
 ![White Board](DsaAssets/LeftJoin.jpeg)
+
+## BreadthFirstGraph
+
+### Problem Domain:
+
+Extend a `graph object` with a `breadth-first traversal` method that accepts a starting node. Return a collection of nodes in the order they were visited. Display the collection.
+
+### Algorithm
+
+[Pseudo Code for creating the Graph]
+
+`public void BreadthFirst()`
+
+{`DECLARE nodes <-- new List()` <br>
+    `DECLARE breadth <-- new Queue()` <br>
+    `DECLARE visited <-- new Set()` <br>
+    `breadth.Enqueue(vertex)` <br>
+    `visited.Add(vertex)` <br>
+    `while (breadth is not empty)` <br>
+        `DECLARE front <-- breadth.Dequeue()` <br>
+        `nodes.Add(front)` <br>
+        `for each child in front.Children` <br>
+            `if(child is not visited)` <br>
+                `visited.Add(child)` <br>
+                `breadth.Enqueue(child)` <br>
+    `return nodes;`
+}
+![White Board](DsaAssets/BreadthFirstGraph.jpeg)
