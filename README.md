@@ -49,3 +49,9 @@ Write the following methods for the Linked List class:
 `.insertAfter(value, newVal)` which add a new node with the given newValue immediately after the first value node
 
 ![White Board](../assets/Insertions.JPEG)
+
+## Depth First Graph
+
+Create a `function` that accepts an `adjacency list` as a `graph`, and conducts a `depth first traversal`. Without utilizing any of the built-in methods available to your language, return a `collection` of `nodes` in their `pre-order depth-first traversal order`.
+
+![White Board](DsaAssets/DepthFirstGraph.png)
