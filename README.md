@@ -232,3 +232,8 @@ Write a function based on the specifications shown, which takes in a graph, and 
 
 ![White Board](DsaAssets/GetEdgeWeight.jpeg)
 
+## Depth First Graph
+
+Create a `function` that accepts an `adjacency list` as a `graph`, and conducts a `depth first traversal`. Without utilizing any of the built-in methods available to your language, return a `collection` of `nodes` in their `pre-order depth-first traversal order`.
+
+![White Board](DsaAssets/DepthFirstGraph.jpeg)
